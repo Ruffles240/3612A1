@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+main {
+
+
+   
+   
+    text-align: center;
+    box-shadow: 0px 0px 4px  rgb(102, 100, 100);
+}
+
+main, footer{
+    width: 910px;
+}
+body{
+
+    font-size: 18px;
+    
+    font-family: 'Open Sans';
+    background-color: #E5E9EF;
+    font-weight: 400;
+
+    margin: 0% auto;
+
+    margin-left: 20%;
+   
+    }
+
+.section li:nth-child(odd) {
+    background-color: rgba(47, 59, 64, 0.35);
+  }
+
+#options{
+
+    width: 100%;
+}
+.section {
+    display: inline-block;
+    width: 300px;
+    
+    background-color: white;
+}
+
+.section ul{
+    width: 100%;
+    
+  padding-left: 0;
+    margin-top: 0;
+}
+
+ul{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+
+.formview{
+
+    background-color: #3a6ba5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    width: 90%;
+    margin: 0% auto;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    color: white;
+
+}
+
+h1, h2{
+    margin-bottom: 0%;
+   
+}
+h2{
+    margin-top: 0%;
+
+    padding: 15px;
+}
+
+footer{
+
+    margin-top: 35px;
+    padding-left: 5px;
+}
+
+footer ul{
+
+    padding-bottom: 25px;
+}
+
+footer ul li{
+    
+    padding-bottom: 12px;
+    
+}
+footer div{
+
+   padding-top: 5px;
+
+   padding-left: 30px;
+
+   margin-bottom: 0;
+
+
+}
+
+div p{
+    margin-top: 0%;
+
+}
+
+
+footer div h1{
+   
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0%;
+}
+main h1{
+font-size: 36px;
+padding: 12px;
+vertical-align:baseline;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.price{
+
+    font-size: 36px;
+}
+.formview:hover{
+
+    background-color: #437cbf;
+}
+
+.section ul li {
+
+    padding: 15px;
+   
+}
+
+.section a{
+    text-decoration: none;
+    
+  
+    color: inherit;
+
+
+}
+
+ footer a{
+
+    font-style: italic;
+    color: #80C6ED;
+}
+
+#price1{
+
+    background-color: #5BB189;
+}
+
+#price2{
+    background-color: #4b0082;
+
+}
+
+#price3{
+
+    background-color: #ec632a;
+}
+
+.pricebox {
+    padding: 12px;
+    
+}
+
+p{
+
+    font-weight: 300;
+}
+
+strong{
+
+    font-weight: 800;
+}
+
+.section li{
+
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+
+h1{
+
+    font-weight: 600;
+}
+
+
+.confidence{
+    background-color: #2F4F4F;
+    color: white;
+}
+
+footer ul li{
+
+    background-image: url(../images/checkmark.svg);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    padding-left: 42px;
+
+}

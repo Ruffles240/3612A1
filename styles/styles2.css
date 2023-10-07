@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+h1, form, span {
+
+margin: 0% auto;
+
+}
+
+body{
+
+  font-family: 'Open Sans';
+}
+
+form{
+
+    width: 1000px;
+   
+}
+
+fieldset{
+    margin-top: 15px;
+    background-color: var(--color-neutral-100);
+}
+
+h1 {
+
+    color: white;
+
+    text-align: center;
+
+    font-weight: 500;
+    width: 980px;
+    background-color: var(--color-primary-1-800);
+    font-size: 20px;
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    
+}
+
+
+
+
+select {
+    width: 130px;
+    height: 28px;
+    border: 1px solid var(--color-neutral-300);
+    border-radius: 5px;  
+    background-color: white;
+    margin-left: 5px;
+    vertical-align: center;
+
+    border: none;
+ 
+  }
+
+  fieldset{
+
+    border: none;
+  }
+  thead{
+
+    background-color: var(--color-primary-1-050);
+   
+  }
+
+
+  th{
+
+    text-align: center;
+    background-color: var(--color-primary-1-600);
+
+    color: white;
+    height: 30px;
+    font-weight: 300;
+    font-size: 18px;
+  }
+thead tr{
+    height: 22px;
+}
+
+fieldset div{
+    margin: 5px;
+    height: 35px;
+    
+}
+fieldset input, fieldset label, fieldset select{
+
+  vertical-align: -10px;
+}
+  table{
+
+    width: 900px;
+  border-collapse: collapse;
+      border-spacing: 0;
+    margin: 5px;
+    
+  }
+
+  tbody td:first-child{
+    width: 4%;
+  }
+  tbody td:nth-child(2){
+    width: 13%;
+  }
+  tbody td:nth-child(3){
+    width: 34%;
+    font-style: italic;
+  }
+
+  
+
+  tbody td:nth-child(4){
+    width: 14.5%;
+   
+  }
+  tbody td:nth-child(5){
+    width: 6%;
+   
+  }
+
+  tbody td:nth-child(6){
+    width: 15%;
+   
+  }
+
+  input[type="text"]{
+    height: 28px;
+    width: 265px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 5px;
+  }
+
+  input[type="checkbox"] {
+    width: 20px;
+ 
+
+
+  }
+
+  .painting{
+
+    width: 85px;
+    margin: 0% auto;
+    border: 2px solid var(--color-neutral-200);
+    padding: 1px;
+  }
+
+  input[type="radio"]{
+
+    width: 16px;
+    height: 16px;
+   border: none;
+    vertical-align:-6px;
+   
+  }
+ 
+  tbody tr
+  {
+    height: 110px;
+   
+
+    border-top: 2px solid var(--color-neutral-200);
+  }
+
+tbody tr:first-child
+
+{
+
+    border: none;
+  
+}
+
+body
+
+{
+
+    font-size: 14px;
+    
+    
+    
+
+}
+
+
+
+
+button{
+    margin: 2px;
+    width: 30px;
+    height: 28px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: var(--color-neutral-300);
+    
+    
+}
+
+button img{
+
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    
+   
+    
+}
+body{
+
+    font-weight: 400;
+}
+
+td button:first-child{
+
+    background-color: var(--color-primary-1-500);
+
+
+    border-radius: 4px
+}
+
+
+button[type="submit"]{
+
+  width: 80px;
+  height: 32px;
+  background-color: var(--color-primary-1-600);
+  color: white;
+  border: none;
+}
+
+
+#submission{
+
+  vertical-align: middle;
+  width: 100px;
+  height: 32px;
+ 
+}
+tbody tr td{
+  font-weight: 300;
+}

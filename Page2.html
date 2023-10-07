@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    
+    <meta charset="UTF-8">
+    <title>Form Page</title>
+    <meta name ='Author' content ="Raphael Khan's assignment">
+    <meta name = "keywords" content="Raphael Khan, 3612, CompSci">
+    <meta name ="Description" content = "My first assignment for 3612">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/variables-palette-7.css">
+    <link rel="stylesheet" href="./styles/styles2.css">
+    
+    
+</head>
+
+<body>
+    <h1>Advanced Art Work Search</h1>
+    <form method="post" action="mailto:rkhan461@mtroyal.ca">
+        <fieldset>
+            <div>
+                <input type="text" id="search" name="search" placeholder="Search">
+                <label>Subject:</label>
+                <input type="radio" id="History" name="subject" value="History">
+
+                
+                <label for="History">History</label>
+            
+                <input type="radio" id="Person" name="subject" value="Person">
+                <label for="Person">Person</label>
+                
+                <input type="radio" id="Landscape" name="subject" value="Landscape"> 
+                <label for="Landscape" >Landscape</label>
+            
+                <select id="Genre" name="filter">
+                    <option value="0">Neo-Classicism</option>
+                    <option value="1">Baroque</option>
+                    <option value="2">Rennaissance</option>
+                    <option value="3">Realism</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <table>
+               
+                <thead>
+                  <tr>
+                    <th colspan="7">Paintings</th>
+                  </tr>
+                  <tr>
+                    <td colspan="2"></td>
+                    <td id="title">Title</td>
+                    <td>Artist</td>
+                    <td>Year</td>
+                    <td>Genre</td>
+                    <td>Actions</td>
+                  </tr>
+                </thead>
+               
+                <tbody>
+                  
+                  <tr>
+                    <td><input type="checkbox" name = "index[]" value = "12"></td>
+                    <td><img src="./images/125010.jpg" class="painting" alt="Portrait of Alida Christina Assink"></td>
+                    <td>Portrait of Alida Christina Assink</td>
+                    <td>Kruseman, Jan</td>
+                    <td>1833</td>
+                    <td>Realism</td>
+                    <td><button type="button"><img src="./images/edit.png" alt="editbutton"></button><button type="button"><img src="./images/archive.png" alt="archivebutton"></button><button type="button"><img src="./images/delete.png" alt="deletebutton"></button></td>                
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" name = "index[]" value = "420"></td>
+                    <td><img src="./images/125020.jpg" class="painting" alt="Portrait of William II. King of the Netherlands"></td>
+                    <td>Portrait of William II. King of the Netherlands</td>
+                    <td>Schwartze, Thérèse</td>
+                    <td>1885</td>
+                    <td>Realism</td>
+                    <td><button type="button"><img src="./images/edit.png" alt="editbutton"></button><button type="button"><img src="./images/archive.png" alt="archivebutton"></button><button type="button"><img src="./images/delete.png" alt="deletebutton"></button></td>                
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox"  name = "index[]" value = "41221"></td>
+                    <td><img src="./images/130020.jpg" class="painting" alt="Three girls from the Amsterdam Orphanage"></td>
+                    <td>Three girls from the Amsterdam Orphanage</td>
+                    <td>Schwartze, Thérèse</td>
+                    <td>1885</td>
+                    <td>Realism</td>
+                    <td><button type="button"><img src="./images/edit.png" alt="editbutton"></button><button type="button"><img src="./images/archive.png" alt="archivebutton"></button><button type="button"><img src="./images/delete.png" alt="deletebutton"></button></td>
+                
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" name = "index[]" value = "421"></td>
+                    <td><img src="./images/127010.jpg" class="painting" alt="The Windmill at Wijk by Duurstede"></td>
+                    <td>The Windmill at Wijk by Duurstede</td>
+                    <td>van Ruisdael, Jacob</td>
+                    <td>1670</td>
+                    <td>Dutch Golden Age</td>
+                    <td><button type="button"><img src="./images/edit.png" alt="editbutton"></button><button type="button"><img src="./images/archive.png" alt="archivebutton"></button><button type="button"><img src="./images/delete.png" alt="deletebutton"></button></td>
+                
+                  </tr>
+                 
+                  
+                </tbody>
+              </table>
+
+        </fieldset>
+
+        <fieldset>
+
+          <div>
+            <select id="submission" name="actions">
+              <option value="0">Archive</option>
+              <option value="1">Edit</option>
+              <option value="2">Delete</option>
+              <option value="3">Collection</option>
+            </select>
+            <button type="submit">Apply to All</button>
+          </div>
+
+          
+        </fieldset>
+
+    </form>
+
+
+</body>
+
+</html>
